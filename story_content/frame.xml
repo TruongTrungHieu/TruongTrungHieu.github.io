@@ -13,13 +13,13 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Hướng dẫn thiết kế tr&amp;#234;n Powerpoint" />
+              <option name="title_text" value="Unit 4 - Lesson 1: Lost in the old town!" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="false">
+          <option name="sidebar_enabled" value="true">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -28,7 +28,7 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="resources" value="false" group="linkright" />
-              <listitem name="outline" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
@@ -1137,7 +1137,7 @@
       <string id="shortcuthelp">List keyboard shortcuts</string>
       <string id="shortcut">Shortcut</string>
       <string id="togglezoom">Switch zoom modes</string>
-      <string id="outline">MỤC LỤC</string>
+      <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
       <string id="next">NEXT</string>
       <string id="acc_next">next</string>
@@ -1186,58 +1186,16 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5y4UoCRCcfv" displaytext="Mở đầu" expand="true" type="slide">
+        <slidelink slideid="_player.6KmuvhW0hSn" displaytext="Vocabulary" expand="false" type="slide">
           <links>
-            <slidelink slideid="_player.5y4UoCRCcfv.5joup7D7kIq" displaytext="Giới thiệu" expand="false" type="slide" />
-            <slidelink slideid="_player.5y4UoCRCcfv.60C0O7eU8d2" displaytext="Mục tiêu" expand="false" type="slide" />
-            <slidelink slideid="_player.5y4UoCRCcfv.5nAPVYEb4A3" displaytext="Nội dung" expand="false" type="slide" />
-            <slidelink slideid="_player.5y4UoCRCcfv.6DCkyzSNqmi" displaytext="Tổng quan thiết kế" expand="false" type="slide" />
-            <slidelink slideid="_player.5y4UoCRCcfv.60vD3itwI6d" displaytext="Xu hướng thiết kế" expand="false" type="slide" />
-            <slidelink slideid="_player.5y4UoCRCcfv.6K4HM4RVsSk" displaytext="Giới thiệu Powerpoint" expand="false" type="slide" />
+            <slidelink slideid="_player.6KmuvhW0hSn.5wCEGV5G9Qj" displaytext="Word 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6KmuvhW0hSn.5XVxJ3YExmc" displaytext="Word 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6KmuvhW0hSn.5d2I4fRaC6u" displaytext="Word 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6KmuvhW0hSn.62cg7Up8lqo" displaytext="Word 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6KmuvhW0hSn.5sMwPcXumhS" displaytext="Word 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6KmuvhW0hSn.5z0ADMCrvYi" displaytext="Vocabulary" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6N4gA4LREPI" displaytext="Một số lỗi thường gặp" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6N4gA4LREPI.5zGotKbjqyg" displaytext="Một số lỗi thường gặp" expand="false" type="slide" />
-            <slidelink slideid="_player.6N4gA4LREPI.5rXYfkiZQRq" displaytext="Chữ" expand="false" type="slide" />
-            <slidelink slideid="_player.6N4gA4LREPI.6cYnW2LRoVr" displaytext="Màu sắc" expand="false" type="slide" />
-            <slidelink slideid="_player.6N4gA4LREPI.5qvyW4XyjTD" displaytext="Hình ảnh" expand="false" type="slide" />
-            <slidelink slideid="_player.6N4gA4LREPI.5UuG83kEGZD" displaytext="Bố cục" expand="false" type="slide" />
-            <slidelink slideid="_player.6N4gA4LREPI.62KFNeaY2h6" displaytext="Hiệu ứng" expand="false" type="slide" />
-            <slidelink slideid="_player.6N4gA4LREPI.6qJpNhHmDZ2" displaytext="Thương hiệu" expand="false" type="slide" />
-            <slidelink slideid="_player.6N4gA4LREPI.6k76SYcljOh" displaytext="Kiểm tra" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6AzGtvDSIQT" displaytext="Nguyên lý thiết kế" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6AzGtvDSIQT.5he8Jj5nNof" displaytext="Các nguyên lý thiết kế" expand="false" type="slide" />
-            <slidelink slideid="_player.6AzGtvDSIQT.5t65mo70wgE" displaytext="Sự nhấn mạnh" expand="false" type="slide" />
-            <slidelink slideid="_player.6AzGtvDSIQT.5caCmCPANN5" displaytext="Sự nhấn mạnh" expand="false" type="slide" />
-            <slidelink slideid="_player.6AzGtvDSIQT.5vdZdUZ5OUj" displaytext="Sự tương phản" expand="false" type="slide" />
-            <slidelink slideid="" displaytext="Sự cân bằng" expand="true" type="slide" />
-            <slidelink slideid="_player.6AzGtvDSIQT.6q00ldDL6OD" displaytext="Sự căn gióng" expand="true" type="slide">
-              <links>
-                <slidelink slideid="_player.6AzGtvDSIQT.69aF8ZU5wdr" displaytext="Cân bằng đối xứng" expand="false" type="slide" />
-                <slidelink slideid="_player.6AzGtvDSIQT.6BHgSzFVDrI" displaytext="Cân bằng bất đối xứng" expand="false" type="slide" />
-                <slidelink slideid="_player.6AzGtvDSIQT.6VEkBbjxh29" displaytext="Trọng lượng thị giác" expand="false" type="slide" />
-              </links>
-            </slidelink>
-            <slidelink slideid="_player.6AzGtvDSIQT.6ik3PbO0RRS" displaytext="Dòng chảy" expand="true" type="slide">
-              <links>
-                <slidelink slideid="_player.6AzGtvDSIQT.6gXmYzlKJhs" displaytext="Dòng chảy thị giác" expand="false" type="slide" />
-                <slidelink slideid="_player.6AzGtvDSIQT.6b0UW2DvpoU" displaytext="Dòng chảy ngôn từ" expand="false" type="slide" />
-              </links>
-            </slidelink>
-            <slidelink slideid="_player.6AzGtvDSIQT.5eP2gMVwuOk" displaytext="Sự lặp lại" expand="false" type="slide" />
-            <slidelink slideid="_player.6AzGtvDSIQT.6gHUUWOcqrd" displaytext="Kiểm tra" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6Zou4mWb01D" displaytext="Hướng dẫn thiết kế" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6Zou4mWb01D.5btD6eambHg" displaytext="Hướng dẫn thiết kế" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6TSZ1Lfrj96.5hyrSzyaSVd" displaytext="Kết bài" expand="false" type="slide" />
       </links>
     </outline>
   </nav_data>
