@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10111000101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns10111000101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns10111000101" font="Open Sans" controllayout="npnxnanbsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
-    <layout name="pxabnsnfns10111000101" font="Open Sans" controllayout="pxabnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
-    <layout name="npxnabnsnfns10111000101" font="Open Sans" controllayout="npxnabnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
-    <layout name="npnxnanbnsnfns10111000101" font="Open Sans" controllayout="npnxnanbnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
-    <layout name="pxabnsnfns10111000100" font="Open Sans" controllayout="pxabnsnfns10111000100" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
+    <layout name="npnxnanbsnfns10111000101" font="Open Sans" controllayout="npnxnanbsnfns10111000101" colorscheme="npxnabnsnfns10111000101" string_table="npxnabnsnfns10111000101" />
+    <layout name="pxabnsnfns10111000101" font="Open Sans" controllayout="pxabnsnfns10111000101" colorscheme="npxnabnsnfns10111000101" string_table="npxnabnsnfns10111000101" />
+    <layout name="npxnabnsnfns10111000101" font="Open Sans" controllayout="npxnabnsnfns10111000101" colorscheme="npxnabnsnfns10111000101" string_table="npxnabnsnfns10111000101" />
+    <layout name="npnxnanbnsnfns10111000101" font="Open Sans" controllayout="npnxnanbnsnfns10111000101" colorscheme="npxnabnsnfns10111000101" string_table="npxnabnsnfns10111000101" />
+    <layout name="pxabnsnfns10111000100" font="Open Sans" controllayout="pxabnsnfns10111000100" colorscheme="npxnabnsnfns10111000101" string_table="npxnabnsnfns10111000101" />
+    <layout name="pnxanbsnfns10111000101" font="Open Sans" controllayout="pnxanbsnfns10111000101" colorscheme="npxnabnsnfns10111000101" string_table="npxnabnsnfns10111000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,7 +14,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Unit 4 - Lesson 1: Lost in the old town!" />
+              <option name="title_text" value="Trọng lượng" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -35,7 +36,7 @@
           </optionlist>
           <option name="time_enabled" value="false">
             <options>
-              <option name="time_format" value="" />
+              <option name="time_format" value="elapsed" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -197,9 +198,32 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
+    <control_layout name="pnxanbsnfns10111000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns10111000101">
+    <colorscheme name="npxnabnsnfns10111000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1116,7 +1140,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns10111000101">
+    <string_table name="npxnabnsnfns10111000101">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
@@ -1137,9 +1161,9 @@
       <string id="shortcuthelp">List keyboard shortcuts</string>
       <string id="shortcut">Shortcut</string>
       <string id="togglezoom">Switch zoom modes</string>
-      <string id="outline">Menu</string>
+      <string id="outline">Mục lục</string>
       <string id="disabled_orientation">Please rotate your device</string>
-      <string id="next">NEXT</string>
+      <string id="next">TIẾP TỤC</string>
       <string id="acc_next">next</string>
       <string id="transcript_chk">Notes</string>
       <string id="transcript">Notes</string>
@@ -1149,7 +1173,7 @@
       <string id="acc_pause">pause</string>
       <string id="acc_play">play</string>
       <string id="send_an_email">Send an email</string>
-      <string id="prev">PREV</string>
+      <string id="prev">QUAY LẠI</string>
       <string id="acc_previous">previous</string>
       <string id="question_list">Question List</string>
       <string id="acc_replay">replay</string>
@@ -1167,9 +1191,9 @@
       <string id="search_results">Search Results</string>
       <string id="acc_skipnavigation">Back to top</string>
       <string id="slide_text_chk">Slide Text</string>
-      <string id="submitall">SUBMIT ALL</string>
+      <string id="submitall">KIỂM TRA</string>
       <string id="acc_submitall">submit all</string>
-      <string id="submit">SUBMIT</string>
+      <string id="submit">KIỂM TRA</string>
       <string id="acc_submit">submit</string>
       <string id="acc_volume">volume</string>
     </string_table>
@@ -1186,15 +1210,18 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6H2sqIwm7AQ.6CK1ksy0cQX" displaytext="Stage 1: Hidden Picture" expand="false" type="slide" />
-        <slidelink slideid="_player.6KmuvhW0hSn" displaytext="Vocabulary" expand="true" type="slide">
+        <slidelink slideid="_player.5uooC1gIn9m" displaytext="Trọng lượng" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6KmuvhW0hSn.5wCEGV5G9Qj" displaytext="Word 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6KmuvhW0hSn.5XVxJ3YExmc" displaytext="Word 2" expand="false" type="slide" />
-            <slidelink slideid="_player.6KmuvhW0hSn.5d2I4fRaC6u" displaytext="Word 3" expand="false" type="slide" />
-            <slidelink slideid="_player.6KmuvhW0hSn.62cg7Up8lqo" displaytext="Word 4" expand="false" type="slide" />
-            <slidelink slideid="_player.6KmuvhW0hSn.5sMwPcXumhS" displaytext="Word 5" expand="false" type="slide" />
-            <slidelink slideid="_player.6KmuvhW0hSn.5z0ADMCrvYi" displaytext="Vocabulary" expand="false" type="slide" />
+            <slidelink slideid="_player.5uooC1gIn9m.6fwslyhHTzG" displaytext="Trọng lượng" expand="false" type="slide" />
+            <slidelink slideid="_player.5uooC1gIn9m.6oOse0ZOgY0" displaytext="Định nghĩa Trọng lượng" expand="false" type="slide" />
+            <slidelink slideid="_player.5uooC1gIn9m.5WkN0IaOoce" displaytext="Phân biệt trọng lực và trọng lượng" expand="false" type="slide" />
+            <slidelink slideid="_player.5uooC1gIn9m.5YKHaIpsFmF" displaytext="Biển báo P.115" expand="false" type="slide" />
+            <slidelink slideid="_player.5uooC1gIn9m.5cOcK2rEisr" displaytext="Xe qua cầu" expand="false" type="slide" />
+            <slidelink slideid="_player.5uooC1gIn9m.6mpQMJ4j81a" displaytext="Trường lực" expand="false" type="slide" />
+            <slidelink slideid="_player.5uooC1gIn9m.5kJzDwMbQhi" displaytext="Cường độ trường hấp dẫn" expand="false" type="slide" />
+            <slidelink slideid="_player.5uooC1gIn9m.61GGoLpL9ZK" displaytext="Tính cường độ trường hấp dẫn" expand="false" type="slide" />
+            <slidelink slideid="_player.5uooC1gIn9m.6Hkn3qLvEnF" displaytext="Trọng lượng trên Mặt Trăng" expand="false" type="slide" />
+            <slidelink slideid="_player.5uooC1gIn9m.5lWQnqhMI2X" displaytext="Tính trọng lượng trên Hỏa Tinh" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
